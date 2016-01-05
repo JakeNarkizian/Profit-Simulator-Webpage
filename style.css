@@ -1,0 +1,127 @@
+/*
+----------------------
+--- DUCMENT SET UP ---
+---------------------- 
+*/
+
+/* --- CLASSES --- */
+.text{
+    font-family: Helvetica;
+    font-weight:lighter;
+    color: #555555;
+    text-align:center;
+}
+.subText{
+    color: #888888;
+}
+.num{
+    font-size:1.5em;
+    
+}
+/* FILENAME: style.css */
+
+
+.btn{
+    font-family:Helvetica;
+    font-size: 1.5em;
+    font-weight:lighter;
+    text-align: center;
+    color: white;
+    background-color: #88AAFF;
+    box-shadow: 0px 0px 10px #CCCCCC;
+    
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+}
+
+/* --- PAGE --- */
+body{
+    background-color: #FFFFFF;
+}
+
+
+/*
+---------------------------
+--- PAGE SECTION: Graph ---
+---------------------------
+*/
+#graph{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top:30px;
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    box-shadow: 0px -400px 300px #CCCCCC;
+}
+#graph_info{
+    margin-bottom: -50px;  
+}
+
+
+/*
+-------------------------------------
+--- PAGE SECTION: Selection Tools ---
+-------------------------------------
+*/
+#user_values{
+    text-align:center;
+    margin-bottom: 75px;
+}
+
+/* --- USER INPUT --- */
+#slc_txt{
+    font-size:2em;
+}
+#slider{
+    width: 250px;
+    margin: auto;
+    margin-bottom:40px;
+    display:block;
+    box-shadow: 0px 0px 10px #CCCCCC; 
+}
+
+/* --- BUTTONS --- */
+#slc_btn{
+    margin: auto;
+    margin-bottom:10px;
+}
+#rst_btn{
+    margin:auto;
+}
+
+
+/*
+---------------------------------------
+--- PAGE SECTION: Advanced Settings ---
+---------------------------------------
+*/
+#adv{
+    text-align: center; 
+    display: block;
+}
+
+#chng_fnc_txt{
+    width:300px;
+    margin-bottom: 20px;
+}
+
+/* --- BUTTONS --- */
+#adv_btn{
+    margin: auto;
+    width: 250px;
+}
+#show_btn{
+    margin: auto;
+    width: 300px; 
+
+}
+#chng_fnc_btn{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
